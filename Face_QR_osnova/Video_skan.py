@@ -9,11 +9,6 @@ from cv2 import cv2
 import json
 
 
-# result = face_recognition.compare_faces([face_enc], known_encodings[item])
-# with open(f"{name}_encodings.pickle", "wb") as file:
-#     file.write(pickle.dumps(data))
-
-
 def detect_person_in_video():
     cap = cv2.VideoCapture("My_obrez.mp4")
     count, data = 0, []
