@@ -1,0 +1,1 @@
+# xakaton_QR_ITTEST
